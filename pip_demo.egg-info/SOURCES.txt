@@ -1,0 +1,11 @@
+README.rst
+setup.py
+pip_demo/__init__.py
+pip_demo/__main__.py
+pip_demo/mysqlconnection.py
+pip_demo/pip_demo.py
+pip_demo.egg-info/PKG-INFO
+pip_demo.egg-info/SOURCES.txt
+pip_demo.egg-info/dependency_links.txt
+pip_demo.egg-info/entry_points.txt
+pip_demo.egg-info/top_level.txt

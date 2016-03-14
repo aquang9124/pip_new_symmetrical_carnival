@@ -1,11 +1,11 @@
 
 import re
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 version = re.search(
    '^__version__\s*=\s*"(.*)"',
-   open('new_demo/new_demo.py').read(),re.M).group(1)
+   open('pip_demo/pip_demo.py').read(),re.M).group(1)
 
 
 with open("README.rst", "rb") as f:
@@ -13,10 +13,10 @@ with open("README.rst", "rb") as f:
 
 
 setup(
-   name = "new_demo",
-   packages = ["new_demo"],
+   name = "pip_demo",
+   packages = find_packages(),
    entry_points = {
-       "console_scripts": ['new_demo = new_demo.new_demo:awesome_class']
+       "console_scripts": ['pip_demo = pip_demo.pip_demo:awesome_module']
        },
    version = version,
    description = "Python command line html creator",

@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pip-demo
+Version: 0.1.1
+Summary: Python command line html creator
+Home-page: https://github.com/oscarvazquez/command_line_tool_demo
+Author: Alex Quang
+Author-email: im.alex.quang@gmail.com
+License: UNKNOWN
+Description: Functions that you can use!
+        1. --create
+        This function will allow you to start your creation of a mysqlconnection file
+Platform: UNKNOWN

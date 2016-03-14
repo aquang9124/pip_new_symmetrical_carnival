@@ -1,4 +1,3 @@
-from new_demo.new_demo import awesome_class
+from pip_demo.pip_demo import awesome_module
 if __name__ == '__main__':
-    a = awesome_class()
-    a.awesome_function()
+    a = awesome_module()
